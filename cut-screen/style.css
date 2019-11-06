@@ -1,0 +1,25 @@
+.menu{
+    background-color: darkgrey;
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.container-all{
+    background-color: rgb(246,246,253);
+}
+.a-bottom{
+    margin-top: 3rem;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 15px 15px;
+}
+.bottom{
+    margin-top: 3rem;
+    color: white;
+    background: linear-gradient(rgb(95,62,186) ,rgb(186,52,213));
+    margin-bottom: 16px!important;
+    text-align: center;
+    padding: 15px 15px;
+}
