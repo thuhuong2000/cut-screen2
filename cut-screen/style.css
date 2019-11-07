@@ -1,6 +1,7 @@
 .menu{
     background-color: darkgrey;
     text-align: center;
+    padding: 10px;
 }
 .card-body{
     text-align: center;
@@ -8,18 +9,30 @@
 .container-all{
     background-color: rgb(246,246,253);
 }
-.a-bottom{
-    margin-top: 3rem;
-    color: black;
-    background-color: white;
-    text-align: center;
-    padding: 15px 15px;
+.btn-group{
+    width: 100%;
 }
-.bottom{
+.btn-group button_a{
+    background: white;
+    color: black;
+    padding: 10px 25px;
+    cursor: pointer;
+    float: left;
+    width: 50%;
     margin-top: 3rem;
-    color: white;
-    background: linear-gradient(rgb(95,62,186) ,rgb(186,52,213));
-    margin-bottom: 16px!important;
     text-align: center;
-    padding: 15px 15px;
+    font-weight: bolder;
+}
+.btn-group button{
+    background: linear-gradient(rgb(95,62,186),rgb(186,52,213));
+    border:1px solid purple;
+    color:white;
+    padding: 10px 25px;
+    cursor:pointer;
+    float:left;
+    width: 50%;
+    margin-top: 3rem;
+}
+.btn-group button:not{
+    border-right: none;
 }
